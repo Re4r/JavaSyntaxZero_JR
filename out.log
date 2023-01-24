@@ -114,3 +114,32 @@ com.homework.plugin.analytics.PluginWarningException: warning
 2023-01-24 23:37:50 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
 2023-01-24 23:37:50 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
 2023-01-24 23:37:50 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2023-01-24 23:48:55 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-01-24 23:48:56 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-01-24 23:49:08 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2023-01-24 23:49:08 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/JavaRushTasks/1.JavaSyntax/src/com/javarush/task/pro/task05/task0521
+2023-01-24 23:53:44 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-01-24 23:53:45 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-01-24 23:53:46 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-01-24 23:53:46 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-01-25 00:05:56 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2023-01-25 00:05:56 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-01-25 00:05:56 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-01-25 00:05:57 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2023-01-25 00:06:24 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2023-01-25 00:06:24 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 4.02 ----------
+
+2023-01-25 00:06:24 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2023-01-25 00:06:24 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2023-01-25 00:06:24 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2023-01-25 00:06:25 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2023-01-25 01:02:11 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-01-25 01:02:13 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-01-25 01:02:22 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-01-25 01:02:27 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2023-01-25 01:02:27 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/JavaRushTasks/1.JavaSyntax/src/com/javarush/task/pro/task05/task0501
+2023-01-25 01:03:59 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-01-25 01:03:59 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-01-25 01:04:00 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-01-25 01:04:00 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
