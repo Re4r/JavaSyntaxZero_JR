@@ -15,6 +15,17 @@ public class Solution {
         int n = s.nextInt();
         array = new int[n];
 
+        for (int i = 0; i < array.length; i++) {
+            array[i] = s.nextInt();
+        }
 
+        int max = array[0];
+
+        for (int j = 1; j < array.length; j++) {
+            if (array[j] > max) {
+                max = array[j];
+            }
+        }
+        System.out.println(max);
     }
 }
