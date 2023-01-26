@@ -11,11 +11,15 @@ public class Solution {
     public static void main(String[] args) {
         MULTIPLICATION_TABLE = new int[10][10];
 
-
+        for (int i = 0; i < MULTIPLICATION_TABLE.length; i++) {
+            for (int j = 0; j < MULTIPLICATION_TABLE[i].length; j++) {
+                MULTIPLICATION_TABLE[i][j] = ((j + 1) * (i + 1));
+            }
+        }
 
         for (int[] item : MULTIPLICATION_TABLE) {
-            for (int i = 0; i < item.length; i++) {
-                System.out.print(item[i] + " ");
+            for (int j : item) {
+                System.out.print(j + " ");
             }
             System.out.println();
         }
