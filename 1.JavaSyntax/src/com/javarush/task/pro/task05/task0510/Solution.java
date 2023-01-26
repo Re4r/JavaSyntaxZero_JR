@@ -9,6 +9,17 @@ public class Solution {
     public static int[][] result = new int[10][];
 
     public static void main(String[] args) {
-        //напишите тут ваш код
+
+        for (int i = 0; i < result.length; i++) {
+            result[i] = new int[i];
+        }
+
+        for (int j = 0; j < result.length; j++) {
+            for (int k = 0; k < result[j].length; k++) {
+                result[j][k] = j + k;
+                System.out.print(result[j][k] + " ");
+            }
+            System.out.println();
+        }
     }
 }
