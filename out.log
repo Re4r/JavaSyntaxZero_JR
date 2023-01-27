@@ -348,3 +348,37 @@ com.homework.plugin.analytics.PluginWarningException: warning
 2023-01-27 12:25:13 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
 2023-01-27 12:25:23 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
 2023-01-27 12:25:23 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/JavaRushTasks/1.JavaSyntax/src/com/javarush/task/pro/task05/task0516
+2023-01-27 12:28:46 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2023-01-27 12:28:46 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-01-27 12:28:46 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2023-01-27 12:29:20 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2023-01-27 12:29:20 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 4.02 ----------
+
+2023-01-27 12:29:20 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2023-01-27 12:29:21 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2023-01-27 12:29:21 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2023-01-27 12:29:21 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2023-01-27 12:30:51 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2023-01-27 12:30:52 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-01-27 12:30:52 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2023-01-27 12:34:03 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2023-01-27 12:34:03 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 4.02 ----------
+
+2023-01-27 12:34:04 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2023-01-27 12:34:04 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2023-01-27 12:34:04 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2023-01-27 12:34:04 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2023-01-27 12:36:17 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2023-01-27 12:36:17 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-01-27 12:36:17 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2023-01-27 12:37:14 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2023-01-27 12:37:14 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 4.02 ----------
+
+2023-01-27 12:37:14 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2023-01-27 12:37:15 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2023-01-27 12:37:15 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2023-01-27 12:37:15 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2023-01-27 12:37:15 INFO  ApacheHttpClient.startGA(36) - GAService started.
