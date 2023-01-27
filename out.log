@@ -899,3 +899,52 @@ Caused by: org.apache.http.ConnectionClosedException: Connection closed
 2023-01-27 14:26:29 INFO  ApacheHttpClient.startGA(36) - GAService started.
 2023-01-27 14:26:34 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
 2023-01-27 14:26:35 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-01-27 14:28:13 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-01-27 14:28:14 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-01-27 14:30:09 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2023-01-27 14:30:09 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2023-01-27 14:30:17 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-01-27 14:31:26 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-01-27 14:31:26 INFO  PluginProjectService.<init>(33) - PluginProjectService for JavaRushTasks initiated.
+2023-01-27 14:31:26 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2023-01-27 14:31:26 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 4.02 ----------
+
+2023-01-27 14:31:26 INFO  ProjectStartupHandler.setAutoscrolls(346) - Autoscrolls successfully set
+2023-01-27 14:31:26 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(589) - The session is not set in the property file.
+2023-01-27 14:31:26 INFO  ApacheHttpClient.logout(633) - Waiting for server response.
+2023-01-27 14:31:27 INFO  ApacheHttpClient.login(250) - Waiting for server response.
+2023-01-27 14:31:27 INFO  ApacheHttpClient.login(254) - responseCode = 200
+2023-01-27 14:31:27 INFO  ApacheHttpClient.login(277) - JSESSIONID OK
+2023-01-27 14:31:27 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2023-01-27 14:31:27 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2023-01-27 14:31:27 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2023-01-27 14:31:28 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-01-27 14:31:30 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-01-27 14:31:40 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/JuvaRush/Games/JavaRushTasks/lib
+2023-01-27 14:31:40 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-01-27 14:31:40 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-01-27 14:31:40 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2023-01-27 14:31:40 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/JuvaRush/Games/JavaRushTasks/8.Games/src/com
+2023-01-27 14:31:40 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/JuvaRush/Games/JavaRushTasks/8.Games/src/com/javarush
+2023-01-27 14:31:40 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/JuvaRush/Games/JavaRushTasks/8.Games/src/com/javarush/games
+2023-01-27 14:31:40 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/JuvaRush/Games/JavaRushTasks/8.Games/src/com/javarush/games/minesweeper
+2023-01-27 15:12:21 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2023-01-27 15:12:22 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-01-27 15:12:22 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2023-01-27 15:31:19 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2023-01-27 15:31:19 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 4.02 ----------
+
+2023-01-27 15:31:19 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2023-01-27 15:31:19 INFO  ApacheHttpClient.logout(633) - Waiting for server response.
+2023-01-27 15:31:19 INFO  ApacheHttpClient.login(250) - Waiting for server response.
+2023-01-27 15:31:19 INFO  ApacheHttpClient.login(254) - responseCode = 200
+2023-01-27 15:31:19 INFO  ApacheHttpClient.login(277) - JSESSIONID OK
+2023-01-27 15:31:20 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2023-01-27 15:31:20 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2023-01-27 15:31:20 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2023-01-27 15:31:40 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-01-27 15:31:42 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-01-27 15:31:49 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-01-27 15:31:49 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
