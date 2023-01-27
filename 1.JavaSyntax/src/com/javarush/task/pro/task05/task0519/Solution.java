@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Solution {
 
     public static int[] array = {9, 8, 7, 6, 5, 4, 3, 2, 1};
-    public static int element = 57;
+    public static int element = 5;
 
     public static void main(String[] args) {
 
@@ -14,6 +14,6 @@ public class Solution {
 
         int index = Arrays.binarySearch(array2, element);
 
-        System.out.println(index > 0);
+        System.out.println(index >= 0);
     }
 }
