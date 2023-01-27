@@ -13,9 +13,9 @@ public class MinesweeperGame extends Game {
     }
 
     private void createGame() {
-        for (int x = 0; x < SIDE; x++) {
-            for (int y = 0; y < SIDE; y++) {
-                gameField[x][y] = new GameObject(x,y);
+        for (int y = 0; y < SIDE; y++) {
+            for (int x = 0; x < SIDE; x++) {
+                gameField[y][x] = new GameObject(x,y);
                 setCellColor(x, y, Color.ORANGE);
             }
         }
