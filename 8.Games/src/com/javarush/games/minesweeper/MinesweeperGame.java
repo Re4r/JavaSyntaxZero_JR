@@ -11,6 +11,7 @@ public class MinesweeperGame extends Game {
     private int countMinesOnField;
     private int countFlags;
     private int countClosedTiles = SIDE * SIDE;
+    private int score;
 
     private static final String MINE = "\uD83D\uDCA3";
     private static final String FLAG = "\uD83D\uDEA9";
@@ -102,6 +103,8 @@ public class MinesweeperGame extends Game {
                 }
             }
         } else setCellNumber(x, y, gameObject.countMineNeighbors);
+        score += 5;
+        setScore(score);
         if (countClosedTiles == countMinesOnField) win();
     }
 
