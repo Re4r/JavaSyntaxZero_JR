@@ -92,6 +92,7 @@ public class MinesweeperGame extends Game {
         if (gameObject.isMine) {
             setCellValueEx(gameObject.x, gameObject.y, Color.RED, MINE);
             gameOver();
+            return;
         } else if (gameObject.countMineNeighbors == 0) {
             setCellValue(gameObject.x, gameObject.y, "");
             List<GameObject> neighbors = getNeighbors(gameObject);
@@ -131,6 +132,6 @@ public class MinesweeperGame extends Game {
 
     private void win() {
         isGameStopped = true;
-        showMessageDialog(Color.WHITE, "YOU WIN", Color.BLANCHEDALMOND, 50);
+        showMessageDialog(Color.WHITE, "YOU WIN", Color.BLACK, 50);
     }
 }
