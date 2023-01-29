@@ -11,11 +11,11 @@ public class Solution {
     }
 
     public static void printSqrt(int[] array) {
-        String elementSqrt = "Корень квадратный для числа ";
+        String elementSqrtStr = "Корень квадратный для числа ";
         for (int i = 0; i < array.length; i++) {
             int element = array[i];
             double elementSqrt = Math.sqrt(element);
-            System.out.println(elementSqrt + element + " равен " + elementSqrt);
+            System.out.println(elementSqrtStr + element + " равен " + elementSqrt);
         }
     }
 }
