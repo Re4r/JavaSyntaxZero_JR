@@ -14,7 +14,7 @@ public class Solution {
 
     }
 
-    public int getMaxValue(int[] array) {
+    public static int getMaxValue(int[] array) {
         int max = Integer.MIN_VALUE;
         for (int value : array) {
             if (value > max) {
@@ -34,7 +34,7 @@ public class Solution {
         return min;
     }
 
-    public void printArray(int[] array) {
+    public static void printArray(int[] array) {
         for (int i : array) {
             System.out.print(i + " ");
         }
