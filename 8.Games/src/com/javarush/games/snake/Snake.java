@@ -29,7 +29,16 @@ public class Snake {
         this.direction = direction;
     }
     public void move() {
-
+        GameObject newHead = createNewHead();
+        if (newHead.x >= SnakeGame.WIDTH
+                || newHead.x < 0
+                || newHead.y >= SnakeGame.HEIGHT
+                || newHead.y < 0) {
+            isAlive = false;
+            return;
+        }
+        snakeParts.add(0,newHead);
+        removeTail();
     }
     public GameObject createNewHead() {
         GameObject oldHead = snakeParts.get(0);

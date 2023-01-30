@@ -14,23 +14,20 @@ public class SnakeGame extends Game {
         setScreenSize(WIDTH, HEIGHT);
         createGame();
     }
-
     private void createGame() {
         turnDelay = 300;
         setTurnTimer(turnDelay);
         snake = new Snake(WIDTH / 2, HEIGHT / 2);
         drawScene();
     }
-
     private void drawScene() {
         for (int i = 0; i < WIDTH; i++) {
             for (int j = 0; j < HEIGHT; j++) {
-                setCellColor(i, j, Color.ANTIQUEWHITE);
+                setCellValueEx(i, j, Color.ANTIQUEWHITE, "");
             }
         }
         snake.draw(this);
     }
-
     @Override
     public void onTurn(int step) {
         snake.move();
