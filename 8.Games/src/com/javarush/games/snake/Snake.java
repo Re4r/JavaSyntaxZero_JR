@@ -9,6 +9,9 @@ public class Snake {
 
     private static final String HEAD_SIGN = "\uD83D\uDC7E";
     private static final String BODY_SIGN = "\u26AB";
+    private Direction direction = Direction.LEFT;
+    public boolean isAlive = true;
+
 
     private List<GameObject> snakeParts = new ArrayList<>();
 
@@ -19,10 +22,15 @@ public class Snake {
     }
 
     public void draw(Game game) {
+        Color color = isAlive ? Color.BLACK : Color.RED;
         for (int i = 0; i < snakeParts.size(); i++) {
             GameObject part = snakeParts.get(i);
             String sign = (i != 0) ? BODY_SIGN : HEAD_SIGN;
-            game.setCellValue(part.x, part.y, sign);
+            game.setCellValueEx(part.x, part.y, Color.NONE, sign, color, 75);
         }
+    }
+
+    public void setDirection(Direction direction) {
+        this.direction = direction;
     }
 }
