@@ -33,7 +33,7 @@ public class SnakeGame extends Game {
     }
     @Override
     public void onTurn(int step) {
-        snake.move();
+        snake.move(apple);
         drawScene();
     }
     @Override
