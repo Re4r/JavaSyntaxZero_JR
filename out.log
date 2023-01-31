@@ -1424,3 +1424,73 @@ com.homework.plugin.analytics.PluginWarningException: warning
 2023-01-30 23:52:08 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
 2023-01-30 23:52:10 INFO  ApacheHttpClient.completed(32) - responseCode = 200
 2023-01-30 23:52:10 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-01-30 23:52:51 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-01-30 23:52:51 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-01-30 23:52:57 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-01-30 23:52:58 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2023-01-31 00:11:30 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-01-31 00:11:31 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-01-31 00:11:35 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-01-31 00:11:35 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-01-31 00:11:57 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-01-31 00:11:58 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-01-31 00:12:04 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-01-31 00:12:04 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2023-01-31 00:29:12 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-01-31 00:29:12 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-01-31 00:29:14 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-01-31 00:29:15 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-01-31 00:29:40 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-01-31 00:29:40 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-01-31 00:29:45 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-01-31 00:29:45 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2023-01-31 00:40:18 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-01-31 00:40:18 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-01-31 00:40:21 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-01-31 00:40:21 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-01-31 00:40:51 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-01-31 00:40:52 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-01-31 00:40:59 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-01-31 00:40:59 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2023-01-31 01:01:16 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-01-31 01:01:16 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-01-31 01:01:18 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-01-31 01:01:18 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-01-31 01:01:43 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-01-31 01:01:44 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-01-31 01:01:51 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-01-31 01:01:51 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2023-01-31 01:13:09 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-01-31 01:13:10 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-01-31 01:13:12 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-01-31 01:13:12 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-01-31 01:13:49 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-01-31 01:13:50 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-01-31 01:13:56 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-01-31 01:13:56 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2023-01-31 01:24:33 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-01-31 01:24:34 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-01-31 01:24:35 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-01-31 01:24:35 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-01-31 01:25:20 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-01-31 01:25:21 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-01-31 01:25:26 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-01-31 01:25:26 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2023-01-31 01:25:57 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2023-01-31 01:25:57 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-01-31 01:25:57 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-01-31 01:25:57 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-01-31 01:25:58 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-01-31 01:25:58 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-01-31 01:25:58 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-01-31 01:25:58 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-01-31 01:25:58 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-01-31 01:25:58 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2023-01-31 13:38:44 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2023-01-31 13:38:44 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 4.02 ----------
+
+2023-01-31 13:38:44 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2023-01-31 13:38:45 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2023-01-31 13:38:45 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2023-01-31 13:38:45 INFO  ApacheHttpClient.startGA(36) - GAService started.
