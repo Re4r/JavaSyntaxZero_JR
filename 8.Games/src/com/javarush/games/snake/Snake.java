@@ -7,8 +7,8 @@ import java.util.List;
 
 public class Snake {
 
-    private static final String HEAD_SIGN = "\uD83D\uDC7E";
-    private static final String BODY_SIGN = "\u26AB";
+    private static final String HEAD_SIGN = "\uD83D\uDD32";
+    private static final String BODY_SIGN = "⬛";
     private Direction direction = Direction.LEFT;
     public boolean isAlive = true;
     private List<GameObject> snakeParts = new ArrayList<>();
