@@ -7,6 +7,7 @@ import java.util.Arrays;
 public class Game2048 extends Game {
     private static final int SIDE = 4;
     private int[][] gameField = new int[SIDE][SIDE];
+    private boolean isGameStopped = false;
     @Override
     public void initialize() {
         setScreenSize(SIDE, SIDE);
@@ -27,6 +28,11 @@ public class Game2048 extends Game {
         }
     }
     private void createNewNumber() {
+        if (getMaxTileValue() >= 2048) {
+            win();
+            return;
+        }
+
         boolean isCreated = false;
         do {
             int x = getRandomNumber(SIDE);
@@ -141,6 +147,21 @@ public class Game2048 extends Game {
             }
         }
         gameField = result;
+    }
+    private int getMaxTileValue() {
+        int max = gameField[0][0];
+        for (int i = 0; i < SIDE; i++) {
+            for (int j = 0; j < SIDE; j++) {
+                if (gameField[i][j] > max) {
+                    max = gameField[i][j];
+                }
+            }
+        }
+        return max;
+    }
+    private void win() {
+        isGameStopped = true;
+        showMessageDialog(Color.BLACK, "YOU WIN", Color.WHITE, 50);
     }
 
 
