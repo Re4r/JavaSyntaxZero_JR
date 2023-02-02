@@ -89,13 +89,28 @@ public class Game2048 extends Game {
 
     @Override
     public void onKeyPress(Key key) {
-        if (key == Key.UP) moveUp();
-        if (key == Key.DOWN) moveDown();
-        if (key == Key.RIGHT) moveRight();
-        if (key == Key.LEFT) moveLeft();
+        if (key == Key.UP) {
+            moveUp();
+        } else if (key == Key.DOWN) {
+            moveDown();
+        } else if (key == Key.RIGHT) {
+            moveRight();
+        } else if (key == Key.LEFT) {
+            moveLeft();
+        } else {
+            return;
+        }
+        drawScene();
     }
     private void moveLeft() {
-
+        boolean isNewNumberNeeded = false;
+        for (int[] row : gameField) {
+            boolean wasCompressed = compressRow(row);
+            boolean wasMerged = mergeRow(row);
+            if (wasMerged) compressRow(row);
+            if (wasCompressed || wasMerged) isNewNumberNeeded = true;
+        }
+        if (isNewNumberNeeded) createNewNumber();
     }
     private void moveRight() {
 
