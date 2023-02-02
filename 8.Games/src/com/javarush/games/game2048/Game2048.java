@@ -60,5 +60,20 @@ public class Game2048 extends Game {
         setCellValueEx(x, y, color, str);
 
     }
+    private boolean compressRow(int[] row) {
+        int insertPosition = 0;
+        boolean result = false;
+        for (int x = 0; x < SIDE; x++) {
+            if (row[x] > 0) {
+                if (x != insertPosition) {
+                    row[insertPosition] = row[x];
+                    row[x] = 0;
+                    result = true;
+                }
+                insertPosition++;
+            }
+        }
+        return result;
+    }
 
 }
