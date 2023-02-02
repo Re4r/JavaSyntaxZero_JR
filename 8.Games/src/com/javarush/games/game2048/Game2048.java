@@ -37,5 +37,8 @@ public class Game2048 extends Game {
             }
         } while (!isCreated);
     }
+    private Color getColorByValue(int value) {
+
+    }
 
 }
