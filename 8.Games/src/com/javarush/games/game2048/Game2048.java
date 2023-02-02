@@ -87,4 +87,25 @@ public class Game2048 extends Game {
         return result;
     }
 
+    @Override
+    public void onKeyPress(Key key) {
+        if (key == Key.UP) moveUp();
+        if (key == Key.DOWN) moveDown();
+        if (key == Key.RIGHT) moveRight();
+        if (key == Key.LEFT) moveLeft();
+    }
+    private void moveLeft() {
+
+    }
+    private void moveRight() {
+
+    }
+    private void moveUp() {
+
+    }
+    private void moveDown() {
+
+    }
+
+
 }
