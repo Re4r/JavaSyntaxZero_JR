@@ -94,6 +94,10 @@ public class Game2048 extends Game {
     }
     @Override
     public void onKeyPress(Key key) {
+        if (!canUserMove()) {
+            gameOver();
+            return;
+        }
         if (key == Key.UP) {
             moveUp();
         } else if (key == Key.DOWN) {
@@ -162,6 +166,10 @@ public class Game2048 extends Game {
         isGameStopped = true;
         showMessageDialog(Color.BLACK, "YOU WIN", Color.WHITE, 50);
     }
+    private void gameOver() {
+        isGameStopped = true;
+        showMessageDialog(Color.BLACK, "GAME OVER", Color.WHITE, 50);
+    }
     private boolean canUserMove() {
         for (int i = 0; i < SIDE; i++) {
             for (int j = 0; j < SIDE; j++) {
@@ -176,6 +184,7 @@ public class Game2048 extends Game {
             }
         return false;
         }
+
     }
 
 
