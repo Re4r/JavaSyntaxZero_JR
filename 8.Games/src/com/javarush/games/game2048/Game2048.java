@@ -27,14 +27,15 @@ public class Game2048 extends Game {
         }
     }
     private void createNewNumber() {
-        for (int x = getRandomNumber(SIDE); x < SIDE; x++) {
-            for (int y = getRandomNumber(SIDE); y < SIDE; y++) {
-                if (gameField[x][y] == 0) {
-                    gameField[x][y] = (getRandomNumber(10) < 9) ? 2 : 4;
-                }
+        boolean isCreated = false;
+        do {
+            int x = getRandomNumber(SIDE);
+            int y = getRandomNumber(SIDE);
+            if (gameField[x][y] == 0) {
+                gameField[x][y] = (getRandomNumber(10) < 9) ? 2 : 4;
+                isCreated = true;
             }
-        }
-        System.out.println(Arrays.deepToString(gameField));
+        } while (!isCreated);
     }
 
 }
