@@ -2403,3 +2403,6 @@ com.homework.plugin.analytics.PluginWarningException: warning
 2023-02-05 12:44:11 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
 2023-02-05 12:44:11 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
 2023-02-05 12:44:11 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2023-02-05 12:48:52 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2023-02-05 12:48:53 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
