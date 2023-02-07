@@ -10,7 +10,7 @@ public class Solution {
 
     private int currentYear;
 
-    public void Solution() {
+    public Solution() {
         this.currentYear = Calendar.getInstance().get(Calendar.YEAR);
     }
 
