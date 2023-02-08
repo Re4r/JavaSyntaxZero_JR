@@ -1,4 +1,5 @@
 package com.javarush.games.moonlander;
+
 import com.javarush.engine.cell.*;
 
 public class GameObject {

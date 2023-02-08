@@ -6,14 +6,16 @@ public class MoonLanderGame extends Game {
     public static final int WIDTH = 64;
     public static final int HEIGHT = 64;
     private Rocket rocket;
+    private GameObject landscape;
 
     @Override
     public void initialize() {
+        showGrid(false);
         setScreenSize(WIDTH, HEIGHT);
         createGame();
     }
     private void createGame() {
-        rocket = new Rocket(WIDTH / 2, 0);
+        createGameObjects();
         drawScene();
     }
     private void drawScene() {
@@ -22,6 +24,12 @@ public class MoonLanderGame extends Game {
                 setCellColor(x, y, Color.DEEPSKYBLUE);
             }
         }
+        landscape.draw(this);
         rocket.draw(this);
+    }
+    private void createGameObjects() {
+        landscape = new GameObject(0, 25, ShapeMatrix.LANDSCAPE);
+        rocket = new Rocket(WIDTH / 2, 0);
+
     }
 }
