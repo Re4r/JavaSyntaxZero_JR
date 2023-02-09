@@ -5,6 +5,7 @@ public class Rocket extends GameObject {
     private double speedY = 0;
     private double speedX = 0;
     private double boost = 0.05;
+    private double slowdown = boost / 10;
     public Rocket(double x, double y) {
         super(x, y, ShapeMatrix.ROCKET);
     }
@@ -15,13 +16,19 @@ public class Rocket extends GameObject {
             speedY += boost;
         }
         y += speedY;
+
         if (isLeftPressed) {
             speedX -= boost;
-            x += speedX;
         } else if (isRightPressed) {
             speedX += boost;
-            x += speedX;
+        } else if (speedX > slowdown) {
+            speedX -= slowdown;
+        } else if (speedX < -slowdown) {
+            speedX += slowdown;
+        } else {
+            speedX = 0;
         }
+        x += speedX;
         checkBorders();
     }
     private void checkBorders() {
