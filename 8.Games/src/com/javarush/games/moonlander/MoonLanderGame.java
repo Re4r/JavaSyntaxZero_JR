@@ -56,7 +56,10 @@ public class MoonLanderGame extends Game {
         stopTurnTimer();
     }
     private void gameOver() {
-
+        rocket.crash();
+        isGameStopped = true;
+        showMessageDialog(Color.BLACK, "GAME OVER", Color.WHITE, 50);
+        stopTurnTimer();
     }
     @Override
     public void onTurn(int step) {
@@ -80,6 +83,7 @@ public class MoonLanderGame extends Game {
             isRightPressed = true;
             isLeftPressed = false;
         }
+        if (key == Key.SPACE && isGameStopped) createGame();
     }
     @Override
     public void onKeyReleased(Key key) {
