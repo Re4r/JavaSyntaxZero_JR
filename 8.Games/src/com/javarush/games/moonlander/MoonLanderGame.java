@@ -10,6 +10,7 @@ public class MoonLanderGame extends Game {
     private boolean isUpPressed;
     private boolean isLeftPressed;
     private boolean isRightPressed;
+    private GameObject platform;
 
     @Override
     public void initialize() {
@@ -37,9 +38,14 @@ public class MoonLanderGame extends Game {
     private void createGameObjects() {
         landscape = new GameObject(0, 25, ShapeMatrix.LANDSCAPE);
         rocket = new Rocket(WIDTH / 2, 0);
+        platform = new GameObject(23, MoonLanderGame.HEIGHT - 1, ShapeMatrix.PLATFORM);
     }
     private void check() {
-
+        if (rocket.isCollision(platform) && rocket.isStopped()) {
+            win();
+        } else if (rocket.isCollision(landscape)) {
+            gameOver();
+        }
     }
     private void win() {
 
