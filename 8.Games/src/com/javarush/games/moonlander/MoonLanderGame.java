@@ -37,7 +37,6 @@ public class MoonLanderGame extends Game {
     private void createGameObjects() {
         landscape = new GameObject(0, 25, ShapeMatrix.LANDSCAPE);
         rocket = new Rocket(WIDTH / 2, 0);
-
     }
     @Override
     public void onTurn(int step) {
@@ -48,7 +47,24 @@ public class MoonLanderGame extends Game {
     public void setCellColor(int x, int y, Color color) {
         if (x > WIDTH - 1 || x < 0 || y < 0 || y > HEIGHT - 1) return;
         super.setCellColor(x, y, color);
-
+    }
+    @Override
+    public void onKeyPress(Key key) {
+        if (key == Key.UP) isUpPressed = true;
+        if (key == Key.LEFT) {
+            isLeftPressed = true;
+            isRightPressed = false;
+        }
+        if (key == Key.RIGHT) {
+            isRightPressed = true;
+            isLeftPressed = false;
         }
     }
+    @Override
+    public void onKeyReleased(Key key) {
+        if (key == Key.UP) isUpPressed = false;
+        if (key == Key.LEFT) isLeftPressed = false;
+        if (key == Key.RIGHT) isRightPressed = false;
+    }
+}
 
