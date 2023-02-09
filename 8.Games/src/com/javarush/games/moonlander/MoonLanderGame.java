@@ -38,9 +38,19 @@ public class MoonLanderGame extends Game {
         landscape = new GameObject(0, 25, ShapeMatrix.LANDSCAPE);
         rocket = new Rocket(WIDTH / 2, 0);
     }
+    private void check() {
+
+    }
+    private void win() {
+
+    }
+    private void gameOver() {
+
+    }
     @Override
     public void onTurn(int step) {
         rocket.move(isUpPressed, isLeftPressed, isRightPressed);
+        check();
         drawScene();
     }
     @Override
