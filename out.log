@@ -3336,3 +3336,12 @@ java.lang.StringIndexOutOfBoundsException: begin -1, end 42, length 42
 2023-02-10 21:48:57 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
 2023-02-10 21:49:00 INFO  ApacheHttpClient.completed(32) - responseCode = 200
 2023-02-10 21:49:00 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-02-10 21:51:08 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-02-10 21:51:08 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-02-10 21:51:10 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2023-02-10 21:51:10 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/JavaRushTasks/1.JavaSyntax/src/com/javarush/task/pro/task11/task1120
+2023-02-10 21:51:11 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-02-10 21:52:10 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-02-10 21:52:11 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-02-10 21:52:12 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-02-10 21:52:12 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
