@@ -24,6 +24,33 @@ public class RacerGame extends Game {
         drawField();
     }
     private void drawField() {
+        // Разделительная полоса
+        for (int y = 0; y < HEIGHT; y++) {
+            for (int x = 0; x < WIDTH; x++) {
+                if (x == CENTER_X) {
+                    setCellColor(x, y, Color.WHITE);
+                }
+            }
+        }
+        // Дорожное полотно
+        for (int y = 0; y < HEIGHT; y++) {
+            for (int x = 0; x < WIDTH; x++) {
+                if (x >= ROADSIDE_WIDTH && x < WIDTH - ROADSIDE_WIDTH) {
+                    setCellColor(x, y, Color.DIMGREY);
+                }
+            }
+        }
 
+        // Обочина
+        for (int y = 0; y < HEIGHT; y++) {
+            for (int x = 0; x < WIDTH; x++) {
+                if (x >= 0 && x < ROADSIDE_WIDTH) {
+                    setCellColor(x, y, Color.GREEN);
+                }
+                if (x >= WIDTH - ROADSIDE_WIDTH && x <= WIDTH) {
+                    setCellColor(x, y, Color.GREEN);
+                }
+            }
+        }
     }
 }
