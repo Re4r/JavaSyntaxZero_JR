@@ -24,11 +24,17 @@ public class RacerGame extends Game {
         if (y > HEIGHT - 1 || y < 0) return;
         super.setCellColor(x, y, color);
     }
+    @Override
+    public void onTurn(int step) {
+        moveAll();
+        drawScene();
+    }
 
     private void createGame() {
         roadMarking = new RoadMarking();
         player = new PlayerCar();
         drawScene();
+        setTurnTimer(40);
     }
     private void drawScene() {
         drawField();
@@ -47,5 +53,8 @@ public class RacerGame extends Game {
                 }
             }
         }
+    }
+    private void moveAll() {
+        roadMarking.move(player.speed);
     }
 }
