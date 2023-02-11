@@ -3543,3 +3543,12 @@ java.lang.StringIndexOutOfBoundsException: begin -1, end 42, length 42
 2023-02-12 00:50:58 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
 2023-02-12 00:51:02 INFO  ApacheHttpClient.completed(32) - responseCode = 200
 2023-02-12 00:51:02 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-02-12 00:52:06 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-02-12 00:52:06 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-02-12 00:52:07 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-02-12 00:52:08 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2023-02-12 00:52:08 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-02-12 01:09:31 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-02-12 01:09:32 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-02-12 01:09:33 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-02-12 01:09:33 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
