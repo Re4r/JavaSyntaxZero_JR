@@ -36,4 +36,21 @@ public class RoadManager {
             item.move(boost + item.speed);
         }
     }
+    private boolean isThornExists() {
+        for (RoadObject item : items) {
+            if (item instanceof Thorn) {
+                return true;
+            }
+        }
+        return false;
+    }
+    private void generateThorn(Game game) {
+        if (game.getRandomNumber(100) < 10 && !isThornExists()) {
+            addRoadObject(RoadObjectType.THORN, game);
+        }
+    }
+    public void generateNewRoadObjects(Game game) {
+        generateThorn(game);
+    }
+
 }
