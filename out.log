@@ -3589,3 +3589,10 @@ java.lang.StringIndexOutOfBoundsException: begin -1, end 42, length 42
 2023-02-12 12:57:58 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
 2023-02-12 12:57:59 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
 2023-02-12 12:57:59 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2023-02-12 13:17:46 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-02-12 13:17:47 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-02-12 13:17:49 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-02-12 13:19:25 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-02-12 13:19:26 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-02-12 13:19:28 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-02-12 13:19:29 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
