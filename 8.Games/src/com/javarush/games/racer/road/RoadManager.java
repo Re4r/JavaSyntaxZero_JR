@@ -12,7 +12,6 @@ public class RoadManager {
     private static final int FIRST_LANE_POSITION = 16;
     private static final int FOURTH_LANE_POSITION = 44;
     private List<RoadObject> items = new ArrayList<>();
-
     private RoadObject createRoadObject(RoadObjectType type, int x, int y) {
         if (type == RoadObjectType.THORN) {
             return new Thorn(x, y);
@@ -25,6 +24,16 @@ public class RoadManager {
         int y = -1 * RoadObject.getHeight(type);
         if (createRoadObject(type, x, y) != null) {
             items.add(createRoadObject(type, x, y));
+        }
+    }
+    public void draw(Game game) {
+        for (RoadObject item : items) {
+            item.draw(game);
+        }
+    }
+    public void move(int boost) {
+        for (RoadObject item : items) {
+            item.move(boost + item.speed);
         }
     }
 }
