@@ -9,7 +9,7 @@ public class RacerGame extends Game {
     public static final int CENTER_X = WIDTH / 2;
     public static final int ROADSIDE_WIDTH = 14;
     private static final int RACE_GOAL_CARS_COUNT = 40;
-    private RoadMarking roadMarking;
+    public RoadMarking roadMarking;
     private PlayerCar player;
     private RoadManager roadManager;
     private boolean isGameStopped;
