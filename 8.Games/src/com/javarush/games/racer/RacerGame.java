@@ -22,7 +22,7 @@ public class RacerGame extends Game {
     public void initialize() {
         showGrid(false);
         setScreenSize(WIDTH, HEIGHT);
-        drawScene();
+        //drawScene();
         createGame();
     }
     @Override
@@ -80,7 +80,7 @@ public class RacerGame extends Game {
         isGameStopped = false;
         score = 3500;
     }
-    private void drawScene() {
+    private void drawScene()  {
         drawField();
         roadMarking.draw(this);
         player.draw(this);
