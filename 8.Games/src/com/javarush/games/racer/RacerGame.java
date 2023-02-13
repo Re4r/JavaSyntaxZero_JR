@@ -15,6 +15,7 @@ public class RacerGame extends Game {
     private boolean isGameStopped;
     private FinishLine finishLine;
     private ProgressBar progressBar;
+    private int score;
 
 
     @Override
@@ -47,6 +48,8 @@ public class RacerGame extends Game {
         }
         moveAll();
         roadManager.generateNewRoadObjects(this);
+        score -= 5;
+        setScore(score);
         drawScene();
     }
     @Override
@@ -75,6 +78,7 @@ public class RacerGame extends Game {
         drawScene();
         setTurnTimer(40);
         isGameStopped = false;
+        score = 3500;
     }
     private void drawScene() {
         drawField();
