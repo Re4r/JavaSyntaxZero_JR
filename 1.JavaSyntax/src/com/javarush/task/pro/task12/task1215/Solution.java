@@ -41,10 +41,7 @@ public class Solution {
         while (glasses.size() != 0) {
             glasses.remove(glasses.size() - 1);
         }
-
-        if(glasses.size() == 0) {
-            System.out.println("Пирамида разобрана!");
-        }
+        System.out.println("Пирамида разобрана!");
     }
 
     public static void main(String[] args) {
