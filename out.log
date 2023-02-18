@@ -4395,3 +4395,16 @@ com.homework.plugin.analytics.PluginWarningException: warning
 2023-02-18 15:08:12 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
 2023-02-18 15:08:12 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/JavaRushTasks/1.JavaSyntax/src/com/javarush/task/pro/task14
 2023-02-18 15:08:12 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/JavaRushTasks/1.JavaSyntax/src/com/javarush/task/pro/task14/task1401
+2023-02-18 15:34:01 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-02-18 15:34:02 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-02-18 15:34:05 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-02-18 15:35:14 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-02-18 15:35:14 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-02-18 15:35:16 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-02-18 15:36:56 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-02-18 15:36:57 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-02-18 15:36:58 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-02-18 15:38:57 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-02-18 15:38:57 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-02-18 15:38:58 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-02-18 15:38:58 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
