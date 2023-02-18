@@ -33,12 +33,16 @@ public class Solution {
         while (true) {
             System.out.print(PROMPT_STRING);
             String input = scanner.nextLine();
-            if (input.toLowerCase().equals(EXIT)) {
+            if (input.equalsIgnoreCase(EXIT)) {
                 break;
             }
 
             int studentId = Integer.parseInt(input);
-            System.out.println(ANSWERING + studentsJournal.get(studentId));
+            try {
+                System.out.println(ANSWERING + studentsJournal.get(studentId));
+            } catch (Exception exception) {
+                System.out.println(NOT_EXIST);
+            }
         }
     }
 }
