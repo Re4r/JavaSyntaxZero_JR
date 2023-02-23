@@ -13,7 +13,18 @@ public class Solution {
     private static final String THIS_IS_DIR = " - это директория";
 
     public static void main(String[] args) {
-        //напишите тут ваш код
+        Scanner scanner = new Scanner(System.in);
+        while (true) {
+            String str = scanner.nextLine();
+            if (str.isEmpty()) break;
+            if (Files.isRegularFile(Path.of(str))) {
+                System.out.println(str + THIS_IS_FILE);
+            } else if (Files.isDirectory(Path.of(str))) {
+                System.out.println(str + THIS_IS_DIR);
+            } else {
+                break;
+            }
+        }
     }
 }
 
