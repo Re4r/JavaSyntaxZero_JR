@@ -17,8 +17,7 @@ public class Solution {
 
     static String getDayOfWeek(Date date) {
         String result = "";
-        int day = date.getDay();
-        switch (day) {
+        switch (date.getDay()) {
             case 0:
                 return "воскресенье";
             case 1:
