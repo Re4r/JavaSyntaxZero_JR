@@ -19,6 +19,6 @@ public class Solution {
     }
 
     static LocalTime amazingMethod(LocalTime base) {
-        return base.plusHours(3);
+        return base.plusMinutes(288);
     }
 }
