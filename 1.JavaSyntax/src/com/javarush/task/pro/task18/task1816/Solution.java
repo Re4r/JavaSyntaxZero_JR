@@ -15,7 +15,6 @@ public class Solution {
     }
 
     public static Stream<String> toUpperCase(Stream<String> strings) {
-        //напишите тут ваш код
-        return Stream.empty();
+        return strings.map(String::toUpperCase);
     }
 }
