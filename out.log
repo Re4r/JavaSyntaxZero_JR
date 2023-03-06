@@ -5956,3 +5956,70 @@ com.homework.plugin.analytics.PluginWarningException: warning
 2023-03-05 20:14:48 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
 2023-03-05 20:14:49 INFO  ApacheHttpClient.completed(32) - responseCode = 200
 2023-03-05 20:14:49 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-05 20:16:11 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-05 20:16:11 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-03-05 20:16:13 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-05 20:16:13 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2023-03-05 20:16:13 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/JavaRushTasks/8.Games/src/com/javarush/games/minigames/mini06
+2023-03-05 20:16:14 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-05 20:19:09 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-05 20:19:10 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-05 20:19:11 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-03-05 20:19:11 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-05 20:32:05 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-05 20:32:06 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-03-05 20:32:07 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-05 20:32:07 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2023-03-05 20:32:08 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/JavaRushTasks/8.Games/src/com/javarush/games/minigames/mini07
+2023-03-05 20:32:08 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-05 20:36:26 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-05 20:36:27 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-03-05 20:36:28 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-05 20:36:28 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-05 20:38:03 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-05 20:38:03 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-03-05 20:38:17 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-05 20:38:17 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-03-05 20:38:19 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-05 20:38:19 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2023-03-05 20:38:19 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/JavaRushTasks/8.Games/src/com/javarush/games/minigames/mini08
+2023-03-05 20:38:20 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-05 20:52:55 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-05 20:52:56 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-05 20:52:56 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-03-05 20:52:57 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-05 20:59:42 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-05 20:59:42 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-03-05 20:59:44 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-05 20:59:44 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2023-03-05 20:59:44 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/JavaRushTasks/8.Games/src/com/javarush/games/minigames/mini09
+2023-03-05 20:59:44 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-05 20:59:45 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-05 20:59:45 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2023-03-05 21:08:24 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-05 21:08:25 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-05 21:08:25 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-03-05 21:11:43 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-05 21:11:44 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-05 21:11:45 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-03-05 21:11:46 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-05 21:15:38 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2023-03-05 21:15:39 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-05 21:15:39 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-05 21:15:39 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-05 21:15:40 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-05 21:15:40 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-05 21:15:40 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2023-03-06 13:39:32 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2023-03-06 13:39:32 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 4.03 ----------
+
+2023-03-06 13:39:33 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2023-03-06 13:39:33 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2023-03-06 13:39:33 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2023-03-06 13:39:33 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2023-03-06 13:43:01 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-06 13:43:02 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-03-06 13:43:03 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-06 13:43:04 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2023-03-06 13:43:04 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/JavaRushTasks/8.Games/src/com/javarush/games/minigames/mini10
