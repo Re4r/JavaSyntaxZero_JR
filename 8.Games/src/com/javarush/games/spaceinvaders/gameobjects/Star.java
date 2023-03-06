@@ -4,7 +4,7 @@ import com.javarush.engine.cell.*;
 
 public class Star extends GameObject {
 
-    private static final String STAR_SIGN = "★";
+    private static final String STAR_SIGN = "✦";
     public Star(double x, double y) {
         super(x, y);
     }

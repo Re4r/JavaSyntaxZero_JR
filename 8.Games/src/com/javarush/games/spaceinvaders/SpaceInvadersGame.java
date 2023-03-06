@@ -13,6 +13,7 @@ public class SpaceInvadersGame extends Game {
 
     @Override
     public void initialize() {
+        showGrid(false);
         setScreenSize(WIDTH, HEIGHT);
         createGame();
     }
@@ -26,7 +27,7 @@ public class SpaceInvadersGame extends Game {
     private void drawField() {
         for (int y = 0; y < HEIGHT; y++) {
             for (int x = 0; x < WIDTH; x++) {
-                setCellValueEx(x, y, Color.DARKBLUE, "");
+                setCellValueEx(x, y, Color.BLACK, "");
             }
         }
         for (Star star : stars) {
@@ -36,8 +37,8 @@ public class SpaceInvadersGame extends Game {
     private void createStars() {
        stars = new ArrayList<>();
        for (int i = 0; i < 8; i++) {
-           int x = getRandomNumber(WIDTH);
-           int y = getRandomNumber(HEIGHT);
+           int x = getRandomNumber(1, WIDTH);
+           int y = getRandomNumber(1, HEIGHT);
            stars.add(new Star(x, y));
        }
     }
