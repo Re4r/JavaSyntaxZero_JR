@@ -17,7 +17,7 @@ public class EnemyFleet {
     }
 
     private void createShips() {
-        ships = new ArrayList<EnemyShip>();
+        ships = new ArrayList<>();
         for (int y = 0; y < ROWS_COUNT; y++) {
             for (int x = 0; x < COLUMNS_COUNT; x++) {
                 ships.add(new EnemyShip(x * STEP, y * STEP + 12));
@@ -28,6 +28,20 @@ public class EnemyFleet {
         for (EnemyShip ship : ships) {
             ship.draw(game);
         }
+    }
+    private double getLeftBorder() {
+        double min = Double.MAX_VALUE;
+        for (EnemyShip ship : ships) {
+            if (ship.x < min) min = ship.x;
+        }
+        return min;
+    }
+    private double getRightBorder() {
+        double max = Double.MIN_VALUE;
+        for (EnemyShip ship : ships) {
+            if ((ship.x + ship.width) > max) max = ship.x + ship.width;
+        }
+        return max;
     }
 
 }
