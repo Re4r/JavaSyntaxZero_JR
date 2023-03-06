@@ -15,8 +15,8 @@ public class GameObject {
         this.y = y;
     }
 
-    public void setMatrix(int[][] matrix1) {
-        matrix = matrix1;
+    public void setMatrix(int[][] m) {
+        matrix = m;
         width = matrix[0].length;
         height = matrix.length;
     }
