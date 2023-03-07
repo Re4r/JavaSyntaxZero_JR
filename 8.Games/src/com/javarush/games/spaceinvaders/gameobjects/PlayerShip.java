@@ -42,4 +42,11 @@ public class PlayerShip extends Ship {
                 ShapeMatrix.KILL_PLAYER_ANIMATION_THIRD,
                 ShapeMatrix.DEAD_PLAYER);
     }
+    public void move() {
+        if (!isAlive) return;
+        if (direction == Direction.LEFT) x--;
+        if (direction == Direction.RIGHT) x++;
+        if (x < 0) x = 0;
+        if ((x + width) > SpaceInvadersGame.WIDTH) x = SpaceInvadersGame.WIDTH - width;
+    }
 }
