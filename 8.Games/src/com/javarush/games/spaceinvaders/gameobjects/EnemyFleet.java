@@ -86,7 +86,17 @@ public class EnemyFleet {
     public void deleteHiddenShips() {
         ships.removeIf(ship -> !ship.isVisible());
     }
-
-
-
+    public double getBottomBorder() {
+        double max = Double.MIN_VALUE;
+        for (EnemyShip ship : ships) {
+            double currentValue = ship.y + ship.height;
+            if (currentValue > max) {
+                max = currentValue;
+            }
+        }
+        return max;
+    }
+    public int getShipsCount() {
+        return ships.size();
+    }
 }
