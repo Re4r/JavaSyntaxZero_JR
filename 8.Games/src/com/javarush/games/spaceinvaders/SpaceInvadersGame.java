@@ -145,7 +145,6 @@ public class SpaceInvadersGame extends Game {
             playerShip.setDirection(Direction.UP);
         }
     }
-
     @Override
     public void setCellValueEx(int x, int y, Color cellColor, String value) {
         if (x > WIDTH - 1 || x < 0 || y < 0 || y > HEIGHT - 1) {

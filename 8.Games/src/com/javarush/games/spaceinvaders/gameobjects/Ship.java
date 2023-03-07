@@ -37,10 +37,16 @@ public class Ship extends GameObject {
         if (frameIndex >= frames.size()) return;
         matrix = frames.get(frameIndex);
     }
-
     @Override
     public void draw(Game game) {
         super.draw(game);
         nextFrame();
+    }
+    public boolean isVisible() {
+        if (!isAlive && frameIndex >= frames.size()) {
+            return false;
+        } else {
+            return true;
+        }
     }
 }
