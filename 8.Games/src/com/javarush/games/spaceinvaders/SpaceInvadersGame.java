@@ -21,6 +21,7 @@ public class SpaceInvadersGame extends Game {
     private int animationsCount;
     private List<Bullet> playerBullets;
     private static final int PLAYER_BULLETS_MAX = 1;
+    private int score;
 
     @Override
     public void initialize() {
@@ -30,6 +31,7 @@ public class SpaceInvadersGame extends Game {
     }
     private void createGame() {
         createStars();
+        score = 0;
         enemyFleet = new EnemyFleet();
         enemyBullets = new ArrayList<>();
         playerShip = new PlayerShip();
@@ -72,6 +74,7 @@ public class SpaceInvadersGame extends Game {
     }
     @Override
     public void onTurn(int step) {
+        setScore(score);
         moveSpaceObjects();
         check();
         Bullet bullet = enemyFleet.fire(this);
@@ -103,6 +106,7 @@ public class SpaceInvadersGame extends Game {
     private void check() {
         playerShip.verifyHit(enemyBullets);
         enemyFleet.verifyHit(playerBullets);
+        score += enemyFleet.verifyHit(playerBullets);
         enemyFleet.deleteHiddenShips();
         removeDeadBullets();
         if (enemyFleet.getBottomBorder() >= playerShip.y) playerShip.kill();
