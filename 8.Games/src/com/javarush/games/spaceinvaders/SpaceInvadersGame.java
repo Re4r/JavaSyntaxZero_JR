@@ -19,6 +19,7 @@ public class SpaceInvadersGame extends Game {
     private PlayerShip playerShip;
     private boolean isGameStopped;
     private int animationsCount;
+    private List<Bullet> playerBullets;
 
     @Override
     public void initialize() {
@@ -33,12 +34,16 @@ public class SpaceInvadersGame extends Game {
         playerShip = new PlayerShip();
         isGameStopped = false;
         animationsCount = 0;
+        playerBullets = new ArrayList<>();
         drawScene();
         setTurnTimer(40);
 
     }
     private void drawScene() {
         drawField();
+        for (Bullet bullet : playerBullets) {
+            bullet.draw(this);
+        }
         enemyFleet.draw(this);
         playerShip.draw(this);
         for (Bullet bullet : enemyBullets) {
@@ -78,6 +83,9 @@ public class SpaceInvadersGame extends Game {
             bullet.move();
         }
         playerShip.move();
+        for (Bullet bullet : playerBullets) {
+            bullet.move();
+        }
     }
     private void removeDeadBullets() {
         for (Bullet bullet : new ArrayList<>(enemyBullets)) {
@@ -115,6 +123,15 @@ public class SpaceInvadersGame extends Game {
         }
         if (key == Key.RIGHT) {
             playerShip.setDirection(Direction.RIGHT);
+        }
+    }
+    @Override
+    public void onKeyReleased(Key key) {
+        if (key == Key.LEFT && playerShip.getDirection() == Direction.LEFT) {
+            playerShip.setDirection(Direction.UP);
+        }
+        if (key == Key.RIGHT && playerShip.getDirection() == Direction.RIGHT) {
+            playerShip.setDirection(Direction.UP);
         }
     }
 }

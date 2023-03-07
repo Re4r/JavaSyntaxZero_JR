@@ -7,8 +7,8 @@ import com.javarush.games.spaceinvaders.SpaceInvadersGame;
 import java.util.List;
 
 public class PlayerShip extends Ship {
-
     private Direction direction = Direction.UP;
+
     public PlayerShip() {
         super(SpaceInvadersGame.WIDTH / 2.0, SpaceInvadersGame.HEIGHT - ShapeMatrix.PLAYER.length - 1);
         setStaticView(ShapeMatrix.PLAYER);
@@ -18,6 +18,9 @@ public class PlayerShip extends Ship {
         if (newDirection != Direction.DOWN) {
             this.direction = newDirection;
         }
+    }
+    public Direction getDirection() {
+        return direction;
     }
 
     public void verifyHit(List<Bullet> bullets) {
@@ -48,5 +51,11 @@ public class PlayerShip extends Ship {
         if (direction == Direction.RIGHT) x++;
         if (x < 0) x = 0;
         if ((x + width) > SpaceInvadersGame.WIDTH) x = SpaceInvadersGame.WIDTH - width;
+    }
+
+    @Override
+    public Bullet fire() {
+        if (!isAlive) return null;
+        return new Bullet(x + 2, y - ShapeMatrix.BULLET.length, Direction.UP);
     }
 }
