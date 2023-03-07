@@ -3,10 +3,10 @@ package com.javarush.games.spaceinvaders;
 import com.javarush.engine.cell.*;
 import com.javarush.games.spaceinvaders.gameobjects.Bullet;
 import com.javarush.games.spaceinvaders.gameobjects.EnemyFleet;
+import com.javarush.games.spaceinvaders.gameobjects.PlayerShip;
 import com.javarush.games.spaceinvaders.gameobjects.Star;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 public class SpaceInvadersGame extends Game {
@@ -16,6 +16,7 @@ public class SpaceInvadersGame extends Game {
     private EnemyFleet enemyFleet;
     public static final int COMPLEXITY = 5;
     private List<Bullet> enemyBullets;
+    private PlayerShip playerShip;
 
     @Override
     public void initialize() {
@@ -27,16 +28,19 @@ public class SpaceInvadersGame extends Game {
         createStars();
         enemyFleet = new EnemyFleet();
         enemyBullets = new ArrayList<>();
+        playerShip = new PlayerShip();
         drawScene();
         setTurnTimer(40);
 
     }
     private void drawScene() {
         drawField();
+        enemyFleet.draw(this);
+        playerShip.draw(this);
         for (Bullet bullet : enemyBullets) {
             bullet.draw(this);
         }
-        enemyFleet.draw(this);
+
     }
     private void drawField() {
         for (int y = 0; y < HEIGHT; y++) {
@@ -78,7 +82,9 @@ public class SpaceInvadersGame extends Game {
         }
     }
     private void check() {
+        playerShip.verifyHit(enemyBullets);
         removeDeadBullets();
+
 
     }
 }
