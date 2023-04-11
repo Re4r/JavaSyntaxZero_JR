@@ -66,7 +66,7 @@ public class SpaceInvadersGame extends Game {
     }
     private void createStars() {
        stars = new ArrayList<>();
-       for (int i = 0; i < 8; i++) {
+       for (int i = 0; i < 30; i++) {
            int x = getRandomNumber(1, WIDTH);
            int y = getRandomNumber(1, HEIGHT);
            stars.add(new Star(x, y));

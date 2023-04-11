@@ -6497,3 +6497,311 @@ java.lang.StringIndexOutOfBoundsException: begin -1, end 42, length 42
 2023-03-07 15:17:33 INFO  ApacheHttpClient.completed(32) - responseCode = 200
 2023-03-07 15:17:33 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
 2023-03-07 15:17:34 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 15:18:36 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 15:18:36 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-03-07 15:18:37 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 15:18:37 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 15:18:38 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2023-03-07 15:18:39 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 16:24:47 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 16:24:48 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-03-07 16:24:48 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 16:24:48 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 16:28:48 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 16:28:48 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 16:28:51 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-03-07 16:28:51 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 16:28:52 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 16:30:01 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 16:30:01 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-03-07 16:30:06 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 16:30:06 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 16:30:06 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2023-03-07 16:30:07 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 16:36:25 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 16:36:25 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 16:36:28 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-03-07 16:36:29 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 16:36:29 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 16:36:55 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 16:36:55 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-03-07 16:37:00 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 16:37:00 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 16:37:00 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2023-03-07 16:37:02 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 16:40:24 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 16:40:24 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 16:40:26 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-03-07 16:40:27 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 16:40:27 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 16:41:15 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 16:41:15 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-03-07 16:41:16 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 16:41:16 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 16:41:16 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2023-03-07 16:41:16 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 16:44:24 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 16:44:25 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 16:44:26 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-03-07 16:44:26 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 16:44:26 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 16:44:56 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 16:44:56 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-03-07 16:44:57 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 16:44:57 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 16:44:57 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2023-03-07 16:44:57 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 16:56:41 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 16:56:41 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 16:56:46 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-03-07 16:56:46 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 16:56:47 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 16:57:49 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 16:57:49 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-03-07 16:57:51 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 16:57:51 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2023-03-07 16:57:51 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 16:57:51 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 19:14:59 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 19:15:00 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 19:15:05 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-03-07 19:15:05 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 19:15:05 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 19:15:32 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 19:15:32 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-03-07 19:15:33 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 19:15:33 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 19:15:33 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2023-03-07 19:15:34 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 19:20:35 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 19:20:36 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 19:20:38 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-03-07 19:20:38 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 19:20:38 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 19:21:16 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 19:21:16 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-03-07 19:21:18 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 19:21:28 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 19:21:28 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-03-07 19:21:29 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 19:21:29 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 19:21:29 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2023-03-07 19:21:30 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 19:26:18 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 19:26:19 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 19:26:21 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-03-07 19:26:21 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 19:26:22 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 19:27:19 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 19:27:19 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-03-07 19:27:20 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 19:27:20 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 19:27:20 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2023-03-07 19:27:21 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 19:34:12 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 19:34:13 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 19:34:17 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-03-07 19:34:18 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 19:34:18 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 19:34:36 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 19:34:36 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-03-07 19:34:37 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 19:34:38 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 19:34:38 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2023-03-07 19:34:38 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 19:47:36 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 19:47:37 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 19:47:39 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-03-07 19:47:40 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 19:50:22 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 19:50:23 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 19:50:25 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-03-07 19:50:25 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 19:50:26 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 19:51:11 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 19:51:11 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-03-07 19:51:13 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 19:51:13 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 19:51:13 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2023-03-07 19:51:15 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 20:04:14 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 20:04:15 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 20:04:16 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-03-07 20:04:17 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 20:05:22 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 20:05:23 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 20:05:28 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-03-07 20:05:28 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 20:05:29 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 20:05:55 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 20:05:55 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-03-07 20:05:56 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 20:05:57 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 20:05:57 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2023-03-07 20:05:57 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 20:21:51 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 20:21:51 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 20:21:53 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-03-07 20:21:54 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 20:21:54 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 20:23:50 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 20:23:50 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-03-07 20:23:51 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 20:23:51 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 20:23:52 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2023-03-07 20:23:53 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 20:31:57 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 20:31:58 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 20:32:01 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-03-07 20:32:01 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 20:33:13 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 20:33:14 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 20:33:15 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-03-07 20:33:17 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 20:33:25 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 20:33:25 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 20:33:27 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-03-07 20:33:28 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 20:35:19 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 20:35:20 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 20:35:22 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-03-07 20:35:22 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 20:35:23 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 20:35:43 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 20:35:44 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-03-07 20:35:45 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 20:35:45 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 20:35:45 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2023-03-07 20:35:46 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 20:45:24 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 20:45:24 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 20:45:27 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-03-07 20:45:27 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 20:45:28 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 20:45:44 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 20:45:44 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-03-07 20:45:45 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 20:45:45 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 20:45:46 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2023-03-07 20:45:46 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 21:03:04 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 21:03:05 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 21:03:08 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-03-07 21:03:09 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 21:05:49 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 21:05:50 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 21:05:53 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-03-07 21:05:54 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 21:05:54 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 21:06:15 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 21:06:15 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-03-07 21:06:17 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 21:06:17 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 21:06:17 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2023-03-07 21:06:18 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 21:17:45 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 21:17:46 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 21:17:49 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-03-07 21:17:50 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 21:17:50 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 21:18:13 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 21:18:13 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-03-07 21:18:14 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 21:18:15 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 21:18:15 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2023-03-07 21:18:15 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 21:28:32 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 21:28:33 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 21:28:40 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-03-07 21:28:40 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 21:28:41 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 21:28:56 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 21:28:56 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-03-07 21:28:57 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 21:28:58 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 21:28:58 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2023-03-07 21:28:58 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 21:29:38 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 21:29:39 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 21:29:40 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-03-07 21:29:41 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 21:29:41 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 21:44:37 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-03-07 21:44:37 INFO  ApacheHttpClient.getProject(473) - responseCode = 200
+2023-03-07 21:44:38 INFO  ApacheHttpClient.publish(442) - compile responseCode = 200
+2023-03-07 21:44:38 INFO  ApacheHttpClient.completed(18) - compile responseCode =  200
+2023-03-07 21:44:39 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 21:45:08 INFO  ApacheHttpClient.completed(26) - publish responseCode =  200
+2023-03-07 21:45:09 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 21:50:45 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2023-03-07 21:50:45 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-07 21:50:46 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 21:50:46 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 21:50:46 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 21:50:47 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 21:50:47 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 21:50:47 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 21:50:48 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 21:50:48 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 21:50:48 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 21:50:49 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 21:50:49 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 21:50:49 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 21:50:50 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 21:50:50 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 21:50:50 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 21:50:51 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 21:50:51 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 21:50:51 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 21:50:52 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-03-07 21:50:52 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2023-03-13 13:44:05 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2023-03-13 13:44:05 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 4.03 ----------
+
+2023-03-13 13:44:05 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2023-03-13 13:44:05 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2023-03-13 13:44:05 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2023-03-13 13:44:05 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2023-03-13 13:44:06 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-13 13:44:25 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2023-03-13 13:44:25 INFO  AnalyticsService.run(86) - null : error in server. Status code :404
+2023-03-13 13:44:25 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2023-04-11 16:16:21 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2023-04-11 16:16:21 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 4.03 ----------
+
+2023-04-11 16:16:21 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2023-04-11 16:16:22 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2023-04-11 16:16:22 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2023-04-11 16:16:22 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2023-04-11 16:20:17 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2023-04-11 16:20:18 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2023-04-11 16:23:35 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2023-04-11 16:23:35 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 4.03 ----------
+
+2023-04-11 16:23:35 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2023-04-11 16:23:36 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2023-04-11 16:23:36 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2023-04-11 16:23:36 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2023-04-11 16:29:24 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2023-04-11 16:29:24 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2023-04-11 16:33:58 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2023-04-11 16:33:58 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 4.03 ----------
+
+2023-04-11 16:33:58 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2023-04-11 16:33:59 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2023-04-11 16:33:59 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2023-04-11 16:33:59 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2023-04-11 16:35:34 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2023-04-11 16:35:34 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2023-04-11 16:35:58 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2023-04-11 16:35:58 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 4.03 ----------
+
+2023-04-11 16:35:58 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2023-04-11 16:35:58 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2023-04-11 16:35:58 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2023-04-11 16:35:58 INFO  ApacheHttpClient.startGA(36) - GAService started.

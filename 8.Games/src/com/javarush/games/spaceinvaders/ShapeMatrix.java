@@ -8,9 +8,10 @@ public class ShapeMatrix {
     };
 
     public static final int[][] PLAYER = new int[][]{
-            {0, 0, 6, 0, 0},
-            {0, 6, 6, 6, 0},
-            {6, 6, 6, 6, 6}
+            {0, 0, 88, 0, 0},
+            {0, 0, 88, 0, 0},
+            {0, 88, 5, 88, 0},
+            {88, 5, 5, 5, 88}
     };
 
     public static final int[][] DEAD_PLAYER = new int[][]{
